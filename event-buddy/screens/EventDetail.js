@@ -128,7 +128,7 @@ const handleToggleParticipation = async () => {
 
   return (
     <LinearGradient colors={["#6a11cb", "#2575fc"]} style={styles.gradient}>
-    <ScrollView style={styles.container}>
+    <ScrollView contentContainerStyle={styles.scrollContent}>
       <Image source={{ uri: event.imageUrl }} style={styles.image} />
 
       <View style={styles.content}>
@@ -200,7 +200,8 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: "100%",
+    height: 200,
+    resizeMode: "cover",
   },
   content: {
     padding: 16,
@@ -208,7 +209,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    color: "#333",
+    color: "white",
     flex: 1,
   },
   headerRow: {
@@ -220,11 +221,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     marginTop: 16,
-    color: "#444",
+    color: "white",
   },
   text: {
     fontSize: 15,
-    color: "#666",
+    color: "white",
     marginTop: 4,
   },
   button: {
@@ -239,4 +240,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
+  scrollContent: {
+  paddingBottom: 24,
+},
 });
