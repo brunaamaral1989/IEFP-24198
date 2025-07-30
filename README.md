@@ -4,7 +4,7 @@
 
 > 📅 Concluído em julho de 2025  
 > 👩‍💻 Desenvolvido por Bruna Amaral  
-> 👥 Projeto sob orientação de Carla Sónia Godinho (Gestora) – IEFP
+> 👥 Projeto sob orientação de Carla Sónia Godinho (Formadora) – IEFP
 
 ---
 
